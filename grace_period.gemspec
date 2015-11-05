@@ -7,10 +7,13 @@ Gem::Specification.new do |spec|
   spec.name          = "grace_period"
   spec.version       = GracePeriod::VERSION
   spec.authors       = ["Whitney-Rose Levis", "Adam Bell", "Mike Pence"]
-  spec.email         = ["adamb@nird.us"]
+  spec.email         = ["adamb@nird.us", "whitney@nird.us", "mike@nird.us"]
 
-  spec.summary       = %q{Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
+  spec.summary       = %q{Tool for accounting and paying down technical debt.}
+  spec.description   = %q{This tool allows developers to create "grace periods" for paying down
+                        technical debt. This debt has an expiration date and warnings will show up
+                        when running `rake` and depending on severity will fail once the expiration
+                        date has been reached.}
   spec.homepage      = "https://github.com/nirds/grace_period"
   spec.license       = "MIT"
 
