@@ -12,9 +12,9 @@ module GracePeriod
       x * 2
     end
 
-    Contract lambda { |x| x >= 0 } => Num
+    Contract  Num  => Pos
     def future(x)
-      Time.now.to_i + x
+      x - Time.now.to_i
     end
   end
 end

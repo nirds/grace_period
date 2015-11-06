@@ -21,12 +21,12 @@ describe GracePeriod do
 
   it 'raises an error when time is in the past' do
     client = GracePeriod::ContractClient.new
-    expect { client.future(-1000000)}.to raise_error(ParamContractError)
+    expect { client.future(Time.now.to_i - 1000000)}.to raise_error(ReturnContractError)
   end
 
   it "doesn't raise an error when time is in the future" do
    client = GracePeriod::ContractClient.new
-   expect { client.future(1000000)}.to_not raise_error
+   expect { client.future(Time.now.to_i + 1000000)}.to_not raise_error
   end
 
 end
