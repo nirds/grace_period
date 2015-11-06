@@ -7,9 +7,14 @@ module GracePeriod
     include Contracts::Core
     include Contracts::Builtin
 
-    Contract Num => Num
+    Contract lambda { |x| x.is_a? Numeric } => Num
     def double(x)
       x * 2
+    end
+
+    Contract lambda { |x| x >= 0 } => Num
+    def future(x)
+      Time.now.to_i + x
     end
   end
 end
