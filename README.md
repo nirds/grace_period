@@ -92,7 +92,12 @@ You can find the [complete list of arguments]('#') below. You can accomplish mos
 
 We've put together a [spiffy tutorial]('#') for you, as well.
 
+## Need Help?
+If you run into challenges using this gem please file an issue in our [github issue tracker](https://github.com/nirds/grace_period/issues). Be as specific as possible with your circumstance so that we can identify how we can provide better documentation, understand the bug you found, or frame the feature request.
+
 ## Getting Involved
+
+In addition to filing issues as described above we also have a process for folks getting involved in contributing to our gem.
 
 To get started in contributing pull requests to improve this gem:
 
@@ -106,10 +111,6 @@ bundle exec rake
 ```
 4. Make your modifications or improvements.
 5. Submit a PR on GitHub.
-
-## Need Help?
-You can reach out to the gem authors at some.nird@nird.us.
-
 
 ## Development
 
