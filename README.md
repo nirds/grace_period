@@ -88,6 +88,10 @@ has_grace_period expires_at: (Time.now - 1.second), respond_by: :exception
 ```
 You can find the [complete list of arguments]('#') below. You can accomplish most typical use cases using the built-in parameters, but Grace Period also lets you pass in code blocks for most values, so that you can have maximum flexibility to add whatever logic makes sense for your app to identify and alert about expirations and grace periods. Find out more on our section on [blocks, procs and lambdas]('#').
 
+## Example App
+
+We have created an example app repo to work with the grace_period gem as a way to try out features and check functionality in a more realistic context beyond our test suite. You can find that app [here](https://github.com/nirds/nird_example_app)
+
 ## Tutorial
 
 We've put together a [spiffy tutorial]('#') for you, as well.
