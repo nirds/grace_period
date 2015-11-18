@@ -134,7 +134,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/nirds/
 
 
 Grace_period is maintained and funded by NIRD LLC. The names and logos of NIRD are trademarks of NIRD LLC.
-
 We are committed to giving back to the open source community. We are [available for hire.](http://www.nird.us/?utm_source=github)
 
 
