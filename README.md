@@ -127,7 +127,16 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 Bug reports and pull requests are welcome on GitHub at https://github.com/nirds/grace_period. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
+## About NIRD
+
+
+![alt text](https://s3-us-west-2.amazonaws.com/nirdmarketingassets/nird_logo_centered.png "Northwest Independent Ruby Development")
+
+
+Grace_period is maintained and funded by NIRD LLC. The names and logos of NIRD are trademarks of NIRD LLC.
+We are committed to giving back to the open source community. We are [available for hire.](http://www.nird.us/?utm_source=github)
+
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
