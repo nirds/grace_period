@@ -1,5 +1,6 @@
 # Grace Period
 [![Code Climate](https://codeclimate.com/github/nirds/grace_period/badges/gpa.svg)](https://codeclimate.com/github/nirds/grace_period)
+[![Build Status](https://travis-ci.org/nirds/grace_period.svg?branch=master)](https://travis-ci.org/nirds/grace_period)
 
 Grace Period helps you manage your technical debt creating a way to raise alerts in your Ruby projects based on parameters you set. It is a specialization of the approach to software contracts taken in [contracts.ruby](https://github.com/egonSchiele/contracts.ruby) that focuses on ease-of-use, clear declarative syntax, and flexibility.
 
