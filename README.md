@@ -133,7 +133,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/nirds/
 
 ![alt text](https://s3-us-west-2.amazonaws.com/nirdmarketingassets/nird_logo_centered.png "Northwest Independent Ruby Development")
 
-
 Grace_period is maintained and funded by NIRD LLC. The names and logos of NIRD are trademarks of NIRD LLC.
 We are committed to giving back to the open source community. We are [available for hire.](http://www.nird.us/?utm_source=github)
 
