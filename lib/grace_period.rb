@@ -1,5 +1,4 @@
 require "grace_period/version"
-require 'contracts'
 
 module GracePeriod
   class Installer
@@ -18,21 +17,6 @@ module GracePeriod
                   # more readable methods. When refactored correctly my_method will include just call a
                   # series of private methods.\n"
       end
-    end
-  end
-
-  class ContractClient
-    include Contracts::Core
-    include Contracts::Builtin
-
-    Contract lambda { |x| x.is_a? Numeric } => Num
-    def double(x)
-      x * 2
-    end
-
-    Contract  Num  => Pos
-    def future(x)
-      x - Time.now.to_i
     end
   end
 end
